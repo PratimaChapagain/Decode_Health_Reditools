@@ -14,7 +14,7 @@ Samtools and tabix
 
 ## Running REDItools2.0 
 ## Environment set-up
-# Create a virtual environment 
+### Create a virtual environment 
 source ENV/bin/activate
 
 ### A third-level heading
