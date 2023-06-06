@@ -11,7 +11,12 @@ To perform Blat correction and format alignment exchanges (SAM to BAM and vice v
 
 Blat package including gfServer and gfClient executables or pblat
 Samtools and tabix
-## Running REDItools2.0 (parallel)
+
+## Running REDItools2.0 
+## Environment set-up
+# Create a virtual environment 
+source ENV/bin/activate
+
 ### A third-level heading
 
 1. Environment set-up
