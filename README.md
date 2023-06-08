@@ -1,5 +1,7 @@
        RNA Editing
 Running REDItools2.0 (parallel)
+
+#### Reference : https://github.com/BioinfoUNIBA/REDItools
 # RNA Editing
 REDItools are python scripts developed with the aim to study RNA editing at genomic scale by next generation sequencing data. RNA editing is a post-transcriptional phenomenon involving the insertion/deletion or substitution of specific bases in precise RNA localizations.
 ## Prerequisite
