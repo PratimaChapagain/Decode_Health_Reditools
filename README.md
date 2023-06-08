@@ -17,7 +17,32 @@ Samtools and tabix
 ### Create a virtual environment 
 source ENV/bin/activate
 
-### A third-level heading
-
 1. Environment set-up
-Make a virtual environment with python 2.7 and ensure that REDItools was installed properly as shown here: https://github.com/BioinfoUNIBA/REDItools2#4-insta
+Make a virtual environment with python 2.7 and ensure that REDItools was installed properly as shown here: 
+The detail installation steps are included in Reditools readme tutorial in this link.
+https://github.com/BioinfoUNIBA/REDItools/blob/master/README_1.md
+
+git clone https://github.com/BioinfoUNIBA/REDItools
+cd REDItools
+python setup.py install
+
+2. Running REDItools 2.0
+First, we need to upload  Clone the github repository for REDItools.
+git clone https://github.com/BioinfoUNIBA/REDItools
+Navigate to this repo.
+cd REDItools
+python setup.py install
+Choose which samples to run and edit the script parallel_REDItools2.0.sh. Run from the REDItools github repo folder. 
+This will generate tables for each sample of possible RNA editing sites in a directory for each sample as parallel_table.txt.gz. In other words, for each sample you will have the directory and  inside each individual sample folder, your output files are stored.
+
+### Filtering and processing data
+ 
+ Next step is to filter data, to include only edited sites by dropping  invariant sites by running script:
+ python2.7 RES_main.py
+
+I updated a chromosomal regions from  "1" to  "chr1".  Once you run this step, you will have parallel_table_filtered.txt fiiles in each sample folder.
+
+4. 
+ 
+
+
